@@ -45,10 +45,10 @@ function draw() {
 }
 
 function mouseDragged(){
-  if (gameState!=="launched"){
+
       Matter.Body.setPosition(hero.body, {x: mouseX , y: mouseY});
   }
-}
+
 
 function mouseReleased(){
   rope.fly();
